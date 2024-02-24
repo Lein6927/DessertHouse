@@ -114,13 +114,17 @@ p .lead {
 }
 .aboutTxt {
   width: 80%;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  margin-top: 30px;
+  justify-content: center;
+  margin: 0 30px;
 }
+/*
 #aboutp {
-  width: 380px;
+  /*  width: 380px;
   margin-left: 70px;
-}
+  */
 
 /*footer*/
 footer {
@@ -194,5 +198,8 @@ footer li {
   justify-content: center;
 }
 #copyright {
-  margin-top: 10px;
+  margin-top: 20px;
+}
+#copyright p {
+  font-size: 12px;
 }
