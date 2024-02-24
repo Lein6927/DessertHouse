@@ -1,0 +1,198 @@
+.container {
+  background-color: #ffffff;
+}
+/*導覽列區*/
+nav li {
+  margin: 0 13px;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.navbar-nav {
+  justify-content: flex-end;
+}
+.nav-item {
+  float: right;
+  font-weight: bold;
+}
+.nav-item :hover {
+  background-color: #f5b914;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.nav-item a:hover {
+  color: #ffffff;
+}
+
+#intro .jumbotron .container {
+  position: relative;
+  top: 100%;
+  transform: translate(0, -50%);
+}
+.content {
+  position: relative;
+
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+#intro .btn {
+  margin: 10px;
+  align-items: end;
+}
+.display-4 {
+  margin-top: 10px;
+  position: relative;
+}
+.lead {
+  position: relative;
+}
+#area1 {
+  margin: 20px, 30px;
+}
+#area2 {
+  overflow: hidden;
+  align-items: end;
+}
+/*商品購買頁面*/
+#second {
+  padding: 0;
+  clear: both;
+}
+#second h3,
+#latest h3 {
+  margin-top: 70px;
+  font-size: 32px;
+}
+#second img {
+  border-radius: 5%;
+  position: relative;
+}
+#second h5 {
+  margin-top: 22px;
+  font-size: 16px;
+}
+#dessert {
+  margin: 0 5px; /* 將其置中 */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /*width: 1200px;
+  /*
+  flex-wrap: wrap;
+  flex-direction: row;
+  */
+}
+.block {
+  width: calc(100% / 4); /* 將每個 block 設置為三分之一的寬度 */
+  box-sizing: border-box; /* 讓內邊距和邊框不會增加寬度 */
+  padding: 0 10px; /* 加上一些間距 */
+  float: left;
+}
+.block img {
+  margin-bottom: 10px; /* 圖片底部間距 */
+}
+
+p .lead {
+  color: black;
+  line-height: 31px;
+}
+#dessertP {
+  font-weight: bold;
+}
+
+/*第3部分*/
+#third {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  position: relative;
+  display: flex;
+}
+.aboutImg {
+  width: 80%;
+  float: left;
+}
+.aboutTxt {
+  width: 80%;
+  align-items: center;
+  margin-top: 30px;
+}
+#aboutp {
+  width: 350px;
+  margin-left: 100px;
+}
+
+/*footer*/
+footer {
+  padding: 120px 0 0 0;
+  border-top: 1px solid rgb(0, 0, 0, 0.09);
+  height: 200px;
+}
+footer img {
+  margin-bottom: 10px;
+}
+
+footer h4 {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.foot h4:hover {
+  color: #f5b914;
+}
+.foot a {
+  color: #f05f5c;
+  margin-left: 30px;
+}
+footer a:hover {
+  color: #f5b914;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+  float: left;
+  margin-right: 46px;
+  display: block;
+  align-items: center;
+  position: relative;
+}
+footer ul a {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul a:hover {
+  color: #707070;
+  text-decoration: none;
+  opacity: 0.8;
+}
+footer ul li {
+  margin-bottom: 10px;
+}
+footer li {
+  align-items: center;
+  margin-left: 10px;
+}
+.foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0px 0 50px 0;
+}
+
+.blockf {
+  width: calc(100% / 4); /* 將每個 block 設置為三分之一的寬度 */
+  box-sizing: border-box; /* 讓內邊距和邊框不會增加寬度 */
+  margin: 0 20px;
+  float: left;
+  /*
+  justify-content: center;
+  align-items: center;*/
+}
+.blockf ul {
+  align-items: center;
+  justify-content: center;
+}
+#copyright {
+  margin-top: 10px;
+}

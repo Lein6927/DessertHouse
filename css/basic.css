@@ -1,0 +1,63 @@
+/*基本設定*/
+
+/* {
+  border: solid 1px black;
+}
+*/
+html {
+  font-family: "Noto Sans TC", sans-serif;
+}
+/*字型設定*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+p,
+a,
+span,
+li,
+label {
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 5%;
+}
+p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #707070;
+}
+nav {
+  margin: 10px 0;
+}
+h2 {
+  font-size: 40px;
+}
+h5 {
+  font-size: 20px;
+}
+/*按鈕格式*/
+.btn {
+  background-color: #ffffff;
+  color: #707070;
+  padding: 7px 28px;
+  border-radius: 5px;
+  border: solid 2px #707070;
+  width: auto;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  background-color: #f5b914 !important;
+  border: solid 2px #ffffff;
+  color: #ffffff;
+}

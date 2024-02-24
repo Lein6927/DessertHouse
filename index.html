@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!--bootstrap_end-->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/basic.css" />
+    <link rel="stylesheet" href="css/example.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <!--導覽列-->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">首頁</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">網路商店</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">關於我們</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                >
+                  近期活動
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--導覽列結束-->
+      <!--第一部分-->
+      <section id="intro">
+        <div class="jumbotron">
+          <div class="content">
+            <div class="row">
+              <div class="col-md-6" id="area1">
+                <h1 class="display-4">所有美味點心</h1>
+                <p class="lead">吃出幸福感的拋物線</p>
+                <a class="btn btn-primary col-sm-3" href="#" role="button"
+                  >點擊購買</a
+                >
+              </div>
+              <div id="area2" class="col-6 col-md-6 col-sm-6">
+                <img src="images/ponecake.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--第一部分結束-->
+      <!--第二部分-->
+      <section id="second">
+        <div class="row">
+          <div class="col-md12 text-center">
+            <h3>甜點一覽</h3>
+          </div>
+
+          <div id="dessert" class="col-md3 text-center">
+            <div class="block">
+              <img src="images/marcaron1.png" alt="馬卡龍" />
+              <h5 id="dessertP">馬卡龍</h5>
+              <p>6入 $300</p>
+              <a class="btn">購買</a>
+            </div>
+            <div class="block">
+              <img src="images/抹茶蛋糕.jpg" alt="抹茶蛋糕" />
+              <h5 id="dessertP">抹茶蛋糕</h5>
+              <p>$80</p>
+              <a class="btn">購買</a>
+            </div>
+            <div class="block">
+              <img src="images/玫瑰塔.png" alt="玫瑰塔" />
+              <h5 id="dessertP">玫瑰塔</h5>
+              <p>$80</p>
+              <a class="btn">購買</a>
+            </div>
+            <div class="block">
+              <img src="images/蒙布朗.png" alt="蒙布朗" />
+              <h5 id="dessertP">蒙布朗</h5>
+              <p>$90</p>
+              <a class="btn">購買</a>
+            </div>
+          </div>
+          <!--dessert-->
+        </div>
+        <!--row-->
+      </section>
+      <!--第二部分結束-->
+      <!--第三部分-->
+      <section id="third" class="col-md12 text-center">
+        <div class="aboutImg col-md4">
+          <img src="images/bg.jpg" alt="" />
+        </div>
+        <div class="aboutTxt col-md8">
+          <h2>關於我們</h2>
+          <p id="aboutp">
+            來自對食物無限熱愛的我們，專為您打造每一個甜蜜時刻。</p>
+            <p>我們的點心不僅是美味的享受，更是安心的保證。</p>
+            <p>讓我們帶著創新的靈感，一同走入您的味蕾，感受幸福的拋物線。</p>
+            
+          </p>
+        </div>
+      </section>
+
+      <!--頁尾-->
+      <footer>
+        <div class="content">
+          <div class="foot">
+            <div class="blockf col-md4 text-center">
+              <img src="images/logo.png" alt="logo" />
+              <h5>讓您吃出幸福感的拋物線</h5>
+            </div>
+            <div class="blockf col-md4 text-center">
+              <h4>主頁</h4>
+              <ul>
+                <li><a href="#">甜點一覽</a></li>
+                <li><a href="#">關於我們</a></li>
+              </ul>
+            </div>
+            <div class="blockf col-md4 text-center">
+              <h4>聯絡我們:</h4>
+              <ul>
+                <li>email:</li>
+                <li><a href="#">rigelwork07@gmail.com</a></li>
+                <li>phone:</li>
+                <li>0912345678</li>
+              </ul>
+            </div>
+            <div id="copyright" class="col-md12 text-center">
+              <p>Copyright ©2024 DessertHouse</p>
+            </div>
+          </div>
+          <!--foot-->
+        </div>
+        <!--content-->
+      </footer>
+    </div>
+    <!--對應container-->
+  </body>
+</html>
